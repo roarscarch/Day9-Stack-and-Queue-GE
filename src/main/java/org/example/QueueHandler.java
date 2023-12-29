@@ -8,5 +8,7 @@ public class QueueHandler {
         queue.enqueue(30);
         queue.enqueue(70);
         System.out.println(queue);
+        queue.dequeue();
+        System.out.println(queue);
     }
 }

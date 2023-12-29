@@ -8,4 +8,7 @@ public class Queue<T> extends LinkedList<T> {
     public void enqueue(T data) {
         super.add(data);
     }
+    public void dequeue() {
+        super.deleteFirst();
+    }
 }

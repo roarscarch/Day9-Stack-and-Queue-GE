@@ -1,6 +1,6 @@
 package org.example;
 
-public class App {
+public class StackHandler {
     public static void main(String[] args) throws Exception {
 
         Stack<Integer> stack = new Stack<>();
@@ -9,6 +9,10 @@ public class App {
         stack.push(30);
         stack.push(56);
 
+        System.out.println(stack);
+
+        System.out.println(stack.peek());
+        stack.pop();
         System.out.println(stack);
     }
 }

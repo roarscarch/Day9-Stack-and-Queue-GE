@@ -1,8 +1,8 @@
 package org.example;
 
 public class LinkedList<T> {
-    private Node<T> head;
-    private Node<T> tail;
+    Node<T> head;
+    Node<T> tail;
 
     public LinkedList() {
         this.head = null;
@@ -141,8 +141,8 @@ public class LinkedList<T> {
         return listData.toString();
     }
 
-    private static class Node<T> {
-        T data;
+    public static class Node<T> {
+       public  T data;
         Node<T> next;
 
         public Node(T data) {
